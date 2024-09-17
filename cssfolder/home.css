@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.content {
+  margin-top: 10px;
+}
+
+body {
+  background-color: #202027;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+nav ul a {
+  text-decoration: none;
+  padding: 30px;
+  font-weight: bold;
+  color: white;
+}
+nav ul a:hover{
+    color: #f629c1;
+   
+}
+
+.active {
+  color: #f629c1;
+}
+.row {
+  margin-top: 10px;
+}
+h1,
+h2,
+p {
+  color: white;
+}
+span {
+  color: #f629c1;
+}
+
+.talk {
+  border: 2px solid #f629c1;
+  background-color: #202027;
+  color: #f629c1;
+  font-weight: bold;
+}
+.talk:hover {
+  background-color: #f629c1;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.my-work:hover {
+  border: 2px solid #f629c1;
+  background-color: #202027;
+  color: #f629c1;
+  font-weight: bold;
+}
+.my-work {
+  background-color: #f629c1;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.icons {
+  margin-left: 10px;
+ 
+}
+.icons:hover{
+outline: 2px solid #f629c1;
+}
+
+.image{
+  margin-left: 30px;
+  padding-left: 30px;
+}
+@media (max-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul{
+    padding-inline-start: 0;
+  }
+  nav ul a {
+    padding-left:0;
+    
+  }
+  
+
+  .image{
+    margin-top: 30px;
+   width: 400px;
+   margin-left: 0;
+   padding: 0;
+  }
+  
+}
+

@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  .righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .content{
+      margin-top: 50px;
+  }
+  
+  
+  body {
+    background-color: #202027;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   
+    
+  }
+  nav ul a {
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  nav ul a:hover{
+      color: #f629c1;
+     
+  }
+  
+  .active {
+    color: #f629c1;
+  }
+  h1,
+h2, h3,
+p {
+  color: white;
+}
+span {
+  color: #f629c1;
+}
+.text{
+    background-color: #f629c1;
+}
+.card span{
+    font-weight: bold;
+    color: white;
+}
+input{
+    width: 350px;
+    height: 50px;
+    
+}
+
+.btn{
+    background-color: #f629c1;
+    color: white;
+    margin-right: 20px;
+}
+.btn:hover{
+  border: 2px solid #f629c1;
+  background-color: #202027;
+  color: #f629c1;
+  font-weight: bold;
+
+}
+.icons{
+   margin-left: 10px;
+
+}
+.icons:hover{
+  outline: 2px solid #f629c1;
+}
+
+
+ @media(max-width:800px){
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+      }
+      nav ul{
+        padding-inline-start: 0;
+      }
+      nav ul a {
+        padding-left:0;
+        
+      }
+     .content{
+        margin-top: 5px;
+     }
+} 
